@@ -32,5 +32,5 @@ test("calculates order total", () => {
 
   cart(req, res);
 
-  expect(json.mock.calls[0][0].subtotal).toEqual(83.47);
+  expect(json.mock.calls[0][0].total).toEqual(70.78255999999999);
 });
